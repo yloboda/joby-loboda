@@ -9,7 +9,7 @@ interface IPokemonProps {
 }
 
 export function SearchForm({pokemons, onSearch}: IPokemonProps) {
-    const [value, setValue] = useState('');
+    const [_, setValue] = useState('');
 
     const autoValueClear = useRef(null);
 

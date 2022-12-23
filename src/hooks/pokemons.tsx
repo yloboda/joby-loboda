@@ -27,7 +27,7 @@ export function usePokemons() {
 
     useEffect(() => {
         fetchData();
-    }, []);
+    });
 
     return {pokemons, error}
 }
