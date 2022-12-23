@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.pokemon-card {
+  background: url("./assets/images/pokemon_background.png") 0 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.disable-card {
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+
